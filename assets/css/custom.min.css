@@ -546,8 +546,27 @@ textarea {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    cursor: default
+    cursor: default;
+ 
+ 
+/* ############################################################################ */
+/* ############################################################################ */
+/* ############################################################################ */
+/* #####################           ROTATION        ############################ */
+	/* transform: rotateY(45deg);
+	animation: rotateAnimation 43s linear infinite; */
 }
+    /* @keyframes rotateAnimation 
+    {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+    } */
+
+
+
+/* ################################################################################# */
+/* ################################################################################# */
+/* ################################################################################# */
 
 #organswrapper svg,
 #muscles1wrapper svg,
@@ -868,6 +887,8 @@ textarea {
 .go_back:hover,
 .go_front:hover {
     opacity: .4
+
+
 }
 
 .inactive-side {
