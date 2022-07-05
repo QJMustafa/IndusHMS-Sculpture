@@ -896,6 +896,7 @@ textarea {
 }
 
 .go_bck_frontback,
+.go_side_frontback:hover,
 .go_frt_frontback {
     fill: #72B8FC;
     opacity: .05;
@@ -907,6 +908,7 @@ textarea {
 }
 
 .go_bck_frontback:hover,
+.go_side_frontback:hover,
 .go_frt_frontback:hover {
     opacity: .4
 }
